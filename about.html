@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdur Rahim/ About-page </title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section id="header" class="padding-x">
+   <div class="header-left">
+      <div class="hRight-img">
+        <a href="https://www.facebook.com/abdurrahim.abdurrahim.71653318" target="blank"><img src="img/facebook.png"></a>   
+         <a href="https://www.instagram.com/abdurrahim.abdurrahim.71653318/" target="blank"> <img src="img/instagram.png"></a> 
+         <a href="https://www.youtube.com/channel/UCZxC3yEv-y2c5aupLDN7ODQ" target="blank"><img src="img/youtube.png"></a>
+       </div>
+      </div>
+   </div> 
+   <div class="header-right">
+      <input id="src-input" type="search" placeholder="Search">
+      <button id="src-btn" class="btn search-btn">submit</button>
+      <span class="tooltip">Click And Search</span>
+   </div>   
+</section>
+
+
+<section id="navitem" class="padding-x">
+    <div class="nav-logo">
+         <div class="nav-img">
+            <a href="index.html"> <img src="img/me.png"></a> 
+         </div>
+         <div>
+            <h1>Portfolio</h1>
+         </div>
+    </div>
+
+    <div class="nav-menu">
+        <ul class="navbar">
+            <span id="menuClose">X</span>
+            <li><a  href="index.html">Home</a></li>
+            <li><a class="active" href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="https://www.facebook.com/BecomeWebdevloper" target="blank">page</a></li>
+            <li><a href="contact.html">contact</a></li>
+            <li><a href="https://github.com/AbdurTheDevloper" target="blank">more Project</a></li>
+        </ul>
+     </div>
+ 
+     <div class="menu-icon">
+         <div></div>
+         <div></div>
+         <div></div>
+     </div>
+</section>
+
+
+
+
+
+<section id="about-page" class="padding-x">
+    <div class="about">
+      <div class="about-title">
+        <h1>About</h1>
+        <h2>At Website.com, we believe
+            everyone deserves to have a website or online store.</h2>
+      </div>
+        <p>Our goal is to remove any technical or financial barriers that can prevent you from making your own website. Our powerful tools empower individuals and business owners to create a website, sell online, or reach global audiences. Whether you're a beginner or website expert, we're excited to help you on your journey! Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit corporis in voluptates ab molestiae consequuntur nihil pariatur quam sed doloribus.</p>
+        <button class="about-read btn" title="Click and Read More">Read More</button>
+        <div class="about-more-text">
+            <span id="more-text-close-btn" title="Close this text box">x</span>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi alias nam excepturi ex culpa, odio fuga consequuntur quae voluptas magni molestiae voluptatibus earum blanditiis, fugit incidunt? Ad sequi laborum nemo possimus, sint quasi voluptate voluptatem alias ipsum. Impedit dolores doloribus ullam facere beatae est nostrum, ab, maxime quaerat laudantium quasi?</p>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi alias nam excepturi ex culpa, odio fuga consequuntur quae voluptas magni molestiae voluptatibus earum blanditiis, fugit incidunt? Ad sequi laborum nemo possimus, sint quasi voluptate voluptatem alias ipsum. Impedit dolores doloribus ullam facere beatae est nostrum, ab, maxime quaerat laudantium quasi?</p>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi alias nam excepturi ex culpa, odio fuga consequuntur quae voluptas magni molestiae voluptatibus earum blanditiis, fugit incidunt? Ad sequi laborum nemo possimus, sint quasi voluptate voluptatem alias ipsum. Impedit dolores doloribus ullam facere beatae est nostrum, ab, maxime quaerat laudantium quasi?</p>
+             
+        </div>
+    </div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<section id="column" class="padding-x">
+    <div class="col1 col">
+        <p>Desining with passion While <br>
+            Exploring the world</p>
+    </div>
+    <div class="col2 col">
+        <p>Any type of Quary <br>
+            & Discation</p>
+    </div>
+    <div class="col3 col">
+        <p>Any type of Quary <br>
+            & Discation</p>
+    </div>
+</section>
+
+
+
+
+<section id="contact" class="padding-x">
+        <div class="con-left">
+            <h1>let talk with me!</h1>
+            <h5>use the turn below to drop me a massege</h5>
+            <input id="text" type="text" placeholder="Name"> <br>
+            <input id="email" type="email" placeholder="Email"> <br>
+            <textarea id="textarea" placeholder="Write your massege"></textarea>
+            <button id="submit-btn" class="btn left-btn">Send</button>
+        </div>
+        <div class="con-right">
+            <h1>Letest Web post</h1>
+            <h5>here are the letest post in my web</h5>
+            <h4>Web post title here</h4>
+            <p class=" con-time">04.4.2022</p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+
+         <div class="contact-btn">
+            <button class="btn con-btn"> See more</button>
+         </div>
+        </div>
+</section>
+
+
+<section id="footer" class="padding-x">
+    <p>All Right Reserved By <a href="https://www.facebook.com/abdurrahim.abdurrahim.71653318" target="blank">Abdur Rahim</a></p>
+  <p>created date 05.04.2022</p>
+</section>
+
+
+
+
+<script>
+    
+//   about page more text read     
+
+const aboutMoreBtn = document.querySelector('.about-read');
+const aboutMoreText = document.querySelector('.about-more-text');
+const CLoseBtn = document.getElementById('more-text-close-btn');
+
+
+aboutMoreBtn.addEventListener('click', ()=>{
+  aboutMoreText.style.display = 'block';
+});
+
+CLoseBtn.addEventListener('click', ()=>{
+  aboutMoreText.style.display = 'none';
+});
+
+</script>
+
+<script src="app.js"></script>
+
+</body>
+</html>
